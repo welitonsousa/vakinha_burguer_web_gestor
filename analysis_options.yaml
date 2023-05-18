@@ -1,0 +1,17 @@
+
+include: package:flutter_lints/flutter.yaml
+analyzer:
+  exclude: ['**/*.g.dart']
+linter:
+
+  rules:
+    avoid_web_libraries_in_flutter: false
+    always_declare_return_types: true
+    avoid_unused_constructor_parameters: true
+    prefer_final_locals: true
+    prefer_final_fields: true
+    unnecessary_await_in_return: true
+    constant_identifier_names: false
+    
+# Additional information about this file can be found at
+# https://dart.dev/guides/language/analysis-options

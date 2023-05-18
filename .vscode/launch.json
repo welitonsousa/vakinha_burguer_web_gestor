@@ -1,0 +1,18 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "dw10",
+      "request": "launch",
+      "type": "dart",
+      "deviceId": "chrome",
+      "args": [
+        "-d",
+        "chrome",
+        "--web-renderer",
+        "html",
+      ]
+    },
+    
+  ]
+}
